@@ -1,7 +1,0 @@
-parameters:
-#    sw_application.example.class: Sw\Bundle\ApplicationBundle\Example
-
-services:
-#    sw_application.example:
-#        class: %sw_application.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]

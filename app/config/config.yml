@@ -72,23 +72,6 @@ sensio_framework_extra:
     view:
         annotations: false
 
-fos_rest:
-    body_listener: false
-    param_fetcher_listener: true
-    view:
-        view_response_listener: true
-        formats:
-            xml:  true
-            json: true
-        templating_formats:
-            html: false
-    routing_loader:
-        default_format:       xml
-        include_format:       true
-    format_listener: true
-
-nelmio_api_doc: ~
-
 be_simple_soap:
     services:
         CommentApi:
@@ -98,8 +81,4 @@ be_simple_soap:
 
 # SwSoapCommentBundle
 sw_soap_comment:
-    soap_entry_point: http://localhost/SwimmingPoolParty/web/app.php/ws/CommentApi
-
-#SwRestSwimmingBundle
-sw_rest_swimming:
-    rest_entry_point: http://localhost/SwimmingPoolParty/web/app.php
+    soap_entry_point: http://localhost/SOAPServer/web/app.php/ws/CommentApi
